@@ -65,7 +65,7 @@ public class JodaTimeTest {
 
         // 对日期的加减操作
         DateTime dt5 = new DateTime();
-        dt5 = dt5.plusYears(1)                // 增加年
+        dt5 = dt5.plusYears(1)          // 增加年
                 .plusMonths(1)          // 增加月
                 .plusDays(1)            // 增加日
                 .minusHours(1)          // 减小时
